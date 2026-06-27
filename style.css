@@ -1,4 +1,3 @@
-/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -15,7 +14,7 @@ body {
     line-height: 1.7;
 }
 
-/* NAVBAR */
+
 
 header {
     background: #0f172a;
@@ -60,7 +59,7 @@ nav ul li a:hover {
     color: #fbbf24;
 }
 
-/* HERO SECTION */
+
 
 .hero {
     height: 90vh;
@@ -89,8 +88,6 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* BUTTON */
-
 .btn,
 button {
     background: #fbbf24;
@@ -110,8 +107,6 @@ button:hover {
     transform: translateY(-3px);
 }
 
-/* SECTION STYLING */
-
 section {
     padding: 80px 10%;
 }
@@ -128,7 +123,6 @@ section p {
     text-align: center;
 }
 
-/* CARDS */
 
 .cards {
     display: grid;
@@ -160,7 +154,6 @@ section p {
     color: #666;
 }
 
-/* ABOUT PAGE */
 
 .about-content {
     max-width: 900px;
@@ -172,8 +165,6 @@ section p {
     font-size: 18px;
     color: #555;
 }
-
-/* ROOM CARDS */
 
 .room-card img {
     width: 100%;
@@ -187,7 +178,6 @@ section p {
     font-weight: 600;
 }
 
-/* GALLERY */
 
 .gallery-container {
     display: grid;
@@ -208,8 +198,6 @@ section p {
 .gallery-container img:hover {
     transform: scale(1.05);
 }
-
-/* CONTACT FORM */
 
 .contact {
     min-height: 80vh;
@@ -240,9 +228,6 @@ form input:focus,
 form textarea:focus {
     border: 2px solid #fbbf24;
 }
-
-/* FACILITIES */
-
 .facilities {
     background: #fff;
 }
@@ -250,8 +235,6 @@ form textarea:focus {
 .facilities h2 {
     margin-bottom: 40px;
 }
-
-/* FOOTER */
 
 footer {
     background: #0f172a;
@@ -264,7 +247,6 @@ footer p {
     color: #fff;
 }
 
-/* RESPONSIVE */
 
 @media(max-width:992px) {
 
